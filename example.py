@@ -10,15 +10,15 @@ from src.follow_protocol import follow_protocol
 from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="username",
-    password="password",
-    like_per_day=1000,
+    login="acuarelaprint1",
+    password="8092998235",
+    like_per_day=900,
     comments_per_day=0,
-    tag_list=['follow4follow', 'f4f', 'cute', 'l:212999109'],
+    tag_list=['follow4follow', 'f4f', 'cute', 'dominicanrepublic', 'dominican', 'latino', 'dominicana', 'republicadominicana ', 'newyork', 'youtube', 'latino', 'santodomingo ', 'music', 'puertorico'  ],
     tag_blacklist=['rain', 'thunderstorm'],
     user_blacklist={},
     max_like_for_one_tag=50,
-    follow_per_day=300,
+    follow_per_day=1,
     follow_time=1 * 60,
     unfollow_per_day=300,
     unfollow_break_min=15,
